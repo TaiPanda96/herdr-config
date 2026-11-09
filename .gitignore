@@ -1,3 +1,5 @@
 .DS_Store
 *.error
 .herdr-config-backups/
+gpui-kit.d.ts
+jsconfig.json
