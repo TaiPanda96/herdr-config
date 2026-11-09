@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="400" viewBox="0 0 640 400">
+  <rect width="640" height="400" rx="16" fill="#131619"/>
+  <rect x="12" y="10" width="616" height="28" rx="8" fill="#202225"/>
+  <circle cx="28" cy="24" r="5" fill="#3b82f6"/>
+  <rect x="48" y="20" width="88" height="8" rx="4" fill="#8b8f95"/>
+  <text x="24" y="65" fill="#e8e9eb" font-family="sans-serif" font-size="14" font-weight="700">Agent board</text>
+  <g font-family="sans-serif" font-size="10" font-weight="700">
+    <rect x="14" y="78" width="198" height="166" rx="10" fill="#202225" stroke="#33363b"/>
+    <circle cx="30" cy="97" r="4" fill="#e8a35a"/><text x="42" y="101" fill="#e8e9eb">Needs you</text>
+    <rect x="24" y="117" width="178" height="72" rx="8" fill="#17191c" stroke="#33363b"/>
+    <rect x="34" y="129" width="20" height="20" rx="6" fill="#3b82f6"/><rect x="62" y="132" width="90" height="7" rx="3" fill="#e8e9eb"/><rect x="62" y="144" width="117" height="6" rx="3" fill="#8b8f95"/>
+    <rect x="221" y="78" width="198" height="166" rx="10" fill="#202225" stroke="#33363b"/>
+    <circle cx="237" cy="97" r="4" fill="#77aee7"/><text x="249" y="101" fill="#e8e9eb">Working</text>
+    <rect x="231" y="117" width="178" height="72" rx="8" fill="#17191c" stroke="#33363b"/>
+    <rect x="241" y="129" width="20" height="20" rx="6" fill="#3b82f6"/><rect x="269" y="132" width="86" height="7" rx="3" fill="#e8e9eb"/><rect x="269" y="144" width="117" height="6" rx="3" fill="#8b8f95"/>
+    <rect x="428" y="78" width="198" height="166" rx="10" fill="#202225" stroke="#33363b"/>
+    <circle cx="444" cy="97" r="4" fill="#87c99a"/><text x="456" y="101" fill="#e8e9eb">Done</text>
+    <rect x="438" y="117" width="178" height="72" rx="8" fill="#17191c" stroke="#33363b"/>
+    <rect x="448" y="129" width="20" height="20" rx="6" fill="#3b82f6"/><rect x="476" y="132" width="86" height="7" rx="3" fill="#e8e9eb"/><rect x="476" y="144" width="117" height="6" rx="3" fill="#8b8f95"/>
+  </g>
+  <rect x="14" y="258" width="612" height="128" rx="10" fill="#17191c" stroke="#33363b"/>
+  <rect x="26" y="269" width="98" height="7" rx="3" fill="#8b8f95"/>
+  <rect x="26" y="290" width="433" height="6" rx="3" fill="#62666b"/>
+  <rect x="26" y="307" width="502" height="6" rx="3" fill="#62666b"/>
+  <rect x="26" y="324" width="371" height="6" rx="3" fill="#62666b"/>
+</svg>

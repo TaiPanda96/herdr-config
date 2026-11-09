@@ -1,0 +1,47 @@
+{
+  "id": "root",
+  "type": "column",
+  "titlebar": "none",
+  "traffic_lights": [16, 18],
+  "theme": "graphite",
+  "background": "canvas",
+  "terminal_padding": [12, 10],
+  "preview": "layouts/agent-board.svg",
+  "padding": [6, 8],
+  "gap": 8,
+  "children": [
+    {
+      "id": "tabs",
+      "type": "block",
+      "size": { "px": 38 },
+      "window_drag": true,
+      "content": { "mod": "terminals-bar" }
+    },
+    {
+      "id": "board",
+      "type": "block",
+      "size": { "px": 400 },
+      "min": 260,
+      "max": 650,
+      "content": { "mod": "agent-board" }
+    },
+    {
+      "id": "main",
+      "type": "block",
+      "size": { "weight": 9 },
+      "min": 200,
+      "content": {
+        "tab": "active",
+        "pane": {
+          "header": { "content": { "mod": "terminals-pane" }, "height": 38 },
+          "background": "surface",
+          "border": { "width": 1, "color": "border" },
+          "focus": { "width": 1, "color": "accent" },
+          "radius": 12,
+          "gap": 8,
+          "lone": true
+        }
+      }
+    }
+  ]
+}
