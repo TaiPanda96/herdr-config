@@ -7,10 +7,35 @@ backup_dir="$target_dir/.herdr-config-backups/$(date +%Y%m%d-%H%M%S)-$$"
 
 for path in \
   settings.json \
-  layouts/agent-board.json layouts/agent-board.svg \
-  layouts/agent-sidebar.json layouts/agent-sidebar.svg \
-  mods/agent-board/main.js mods/agent-board/mod.json \
-  mods/task-launcher/main.js mods/task-launcher/mod.json
+  keys.json \
+  layouts/agent-board.json \
+  layouts/agent-board.svg \
+  layouts/agent-sidebar-original.json \
+  layouts/agent-sidebar.json \
+  layouts/agent-sidebar.svg \
+  layouts/agentic-coding-workflow.json \
+  layouts/agentic-coding-workflow.svg \
+  mods/agent-board/main.js \
+  mods/agent-board/mod.json \
+  mods/dx-board/editor.js \
+  mods/dx-board/main.js \
+  mods/dx-board/mod.json \
+  mods/dx-board/review-state.js \
+  mods/dx-launcher/helpers.js \
+  mods/dx-launcher/main.js \
+  mods/dx-launcher/mod.json \
+  mods/dx-remove/main.js \
+  mods/dx-remove/mod.json \
+  mods/dx-responsive/main.js \
+  mods/dx-responsive/mod.json \
+  mods/dx-responsive/sizing.js \
+  mods/dx-review/main.js \
+  mods/dx-review/mod.json \
+  mods/dx-worktrees/helpers.js \
+  mods/dx-worktrees/main.js \
+  mods/dx-worktrees/mod.json \
+  mods/task-launcher/main.js \
+  mods/task-launcher/mod.json
 do
   source_file="$repo_dir/$path"
   destination_file="$target_dir/$path"

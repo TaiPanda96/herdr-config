@@ -3,3 +3,12 @@
 .herdr-config-backups/
 gpui-kit.d.ts
 jsconfig.json
+shared.json
+view.json
+seen.json
+installed.json
+window.json
+windows.json
+data/
+telemetry/
+*.sock
